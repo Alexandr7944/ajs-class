@@ -1,7 +1,7 @@
 import Character from './Character';
 
 export default class Undead extends Character {
-  constructor(name, type) {
-    super(name, type, 25, 25);
+  constructor(name) {
+    super(name, 'Undead', 25, 25);
   }
 }

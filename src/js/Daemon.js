@@ -1,7 +1,7 @@
 import Character from './Character';
 
 export default class Daemon extends Character {
-  constructor(name, type) {
-    super(name, type, 10, 40);
+  constructor(name) {
+    super(name, 'Daemon', 10, 40);
   }
 }
